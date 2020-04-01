@@ -1,18 +1,81 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home-container {
+  background: #FFF;
+  grid-template-columns: 1fr;
+  padding: 30px;
+  min-height: 766px;
+  width: 1400px;
+}
+
+.home-text {
+  text-align: left;
+  font-size: 78px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -0.36px;
+  line-height: 72px;
+  padding: 30px;
+}
+
+.home-text a {
+  color: #000000;
+}
+
+.about-container {
+  background: #F9F2F2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px;
+}
+
+.about-col-1 {
+  height: 853px;
+  width: 295px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.about-col-2 {
+  height: 841px;
+  width: 285px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.about-col-2 h4 {
+  padding-left: 40px;
+}
+
+.client-list li {
+  list-style: none;
+}
+
+.contact-container {
+  background: #D8D8D8;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-col {
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.comrades {
+  margin-left: -40px;
+}
+.comrades li {
+  list-style: none;
+}
+
+.footer-container {
+  padding: 30px;
+  background: #071C2C;
   color: white;
-}
-
-.App a {
-  color: inherit;
 }
