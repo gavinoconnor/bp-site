@@ -29,31 +29,34 @@ const about = () => {
           <li>eBay</li>
           <li>HBO</li>
           <li>Delta</li>
-          <li>ESPN</li>
-          <li>goop</li>
           <li>Start With Why</li>
+          <li>goop</li>
           <li>Motif</li>
+          <li>New York Life</li>
+          {/* <li>ESPN</li> */}
           <li>FEED</li>
+          <li>Two Sigma</li>
           <li>Over the Eight</li>
           <li>LoveLive</li>
           <li>Third Rail Coffee</li>
+          <li>UEG</li>
           <li>Origins School</li>
           <li>BCG</li>
+          <li>White House Farm</li>
           <li>the Green Building</li>
           <li>CHA CHA's House</li>
           <li>Unilever</li>
-          <li>UEG</li>
-          <li>White House Farm</li>
-          <li>Two Sigma</li>
           <li>Wise Guitar</li>
           <br/>
           <li>Freedom of the Press</li>
           <li>Landfill Zine</li>
+          <li>A Return to Mothers Love</li>
           <li>Nov York</li>
           <li>the Indypendent</li>
           <li>AIGA</li>
           <li>1968xoxox</li>
-          <li>?</li>
+          <li>(I LOVE NY)</li>
+          <li>B-Sides</li>
 
         </ul>
       </div>

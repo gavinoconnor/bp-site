@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'GTSuperDisplay-LightItalic';
+  src: url('./assets/fonts/GTSuperDisplay-LightItalic.otf') format('opentype'),
+}
+
+@font-face {
+  font-family: 'SuisseIntl-Regular';
+  src: url('./assets/fonts/SuisseIntl-Regular.otf') format('opentype'),
+}
