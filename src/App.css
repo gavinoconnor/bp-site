@@ -3,12 +3,20 @@
   display: grid;
 }
 
+/* Home component styling */
 .home-container {
   background: #FFF;
   grid-template-columns: 1fr;
-  padding: 30px;
-  min-height: 766px;
-  width: 1400px;
+  padding: 60px;
+  /* min-height: 742px;
+  width: 1400px; */
+}
+
+.home-name {
+  font-family: 'SuisseIntl-Regular';
+  text-align: left;
+  font-size: 21px;
+  line-height: 28px;
 }
 
 .home-text {
@@ -18,63 +26,73 @@
   font-size: 78px;
   letter-spacing: -0.36px;
   line-height: 72px;
-  padding: 30px;
 }
 
 .home-text a {
   color: #000000;
 }
 
-.about-container {
+/* Client component styling */
+.client-container {
   background: #F9F2F2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 20% 1fr;
   padding: 60px;
 }
 
-.about-col-1 {
-  height: 853px;
-  width: 295px;
-  font-family: 'SuisseIntl-Regular';
+.client-col-1 {
+  /* height: 841px;
+  width: 285px; */
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
 }
 
-.about-col-2 {
-  height: 841px;
-  width: 285px;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-.about-col-2 h4 {
-  padding-left: 40px;
+.client-list {
+  padding-left: 0;
 }
 
 .client-list li {
   list-style: none;
 }
 
-.contact-container {
-  background: #D8D8D8;
+
+/* About component styling */
+.about-container {
+  background: #FFF;
   padding: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'SuisseIntl-Regular';
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
-.contact-col {
-  font-size: 21px;
-  line-height: 28px;
+.about-col-1 {
+  /* height: 853px;
+  width: 295px; */
 }
 
-.comrades {
-  margin-left: -40px;
+.about-col-2 {
+  padding-left: 40px;
 }
-.comrades li {
+
+.about-contact {
+  padding-bottom: 20px;
+}
+
+.about-connect {
+  padding-bottom: 20px;
+}
+
+.connect-list {
   list-style: none;
+  padding-left: 0;
 }
 
+
+/* Footer component styling */
 .footer-container {
   padding: 30px;
   background: #071C2C;

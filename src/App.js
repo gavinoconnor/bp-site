@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home';
-import About from './components/About/About';
-import Contact from './components/Contact';
+import About from './components/About';
+import Clients from './components/Clients';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
     <Router>
       <div className='container'>
         <Home />
+        <Clients />
         <About />
-        <Contact />
         <Footer />
       </div>
     </Router>

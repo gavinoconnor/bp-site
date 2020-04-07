@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 import './assets/fonts/GTSuperDisplay-LightItalic.otf';
 import './assets/fonts/SuisseIntl-Regular.otf';
 import './index.css';

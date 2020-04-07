@@ -3,7 +3,12 @@ import React from 'react';
 const Footer = () => {
   return(
     <div className='footer-container'>
-      <p>Brian Ponto 2020</p>
+      <div>
+        <p> © 2020 Brian Ponto</p>
+      </div>
+      <div>
+        <p>bp@brianponto.com</p>
+      </div>
     </div>
   );
 }
