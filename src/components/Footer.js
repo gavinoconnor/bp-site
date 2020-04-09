@@ -7,7 +7,7 @@ const Footer = () => {
         <p> © 2020 Brian Ponto</p>
       </div>
       <div>
-        <p>bp@brianponto.com</p>
+        <p><a href='mailto:bp@brianponto.com'>bp@brianponto.com</a></p>
       </div>
     </div>
   );

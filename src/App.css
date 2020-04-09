@@ -8,8 +8,6 @@
   background: #FFF;
   grid-template-columns: 1fr;
   padding: 60px;
-  /* min-height: 742px;
-  width: 1400px; */
 }
 
 .home-name {
@@ -41,8 +39,6 @@
 }
 
 .client-col-1 {
-  /* height: 841px;
-  width: 285px; */
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
@@ -54,6 +50,10 @@
 
 .client-list li {
   list-style: none;
+}
+
+.client-list li:hover {
+  text-decoration: line-through;
 }
 
 
@@ -69,13 +69,17 @@
   line-height: 24px;
 }
 
+.about-container a {
+  color: #000000;
+}
+
 .about-col-1 {
   /* height: 853px;
   width: 295px; */
 }
 
 .about-col-2 {
-  padding-left: 40px;
+  padding-left: 80px;
 }
 
 .about-contact {
@@ -90,11 +94,23 @@
   list-style: none;
   padding-left: 0;
 }
+.connect-list li {
+  padding-bottom: 10px;
+}
 
 
 /* Footer component styling */
 .footer-container {
-  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 60px;
   background: #071C2C;
-  color: white;
+  color: #FFFFFF;
+  font-family: 'SuisseIntl-Regular';
+  font-size: 15px;
+  line-height: 24px;
+}
+.footer-container a {
+  text-decoration: underline;
+  color: #FFFFFF;
 }
