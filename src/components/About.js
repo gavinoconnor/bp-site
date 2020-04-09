@@ -6,7 +6,7 @@ const About = () => {
       <div className='about-col-1'>
         <h4>About</h4>
 
-        <p>A collaborative and hands-on leader who likes to influence the entire creative process beginning with team-building and brief-writing, and seeing it through to final execution and deployment. Skilled at driving teams toward uncovering the visual language that will bring the clients’ objectives to life in unexpected and effective ways.  Facing any task big or small with enthusiasm, passion and a deep well of creative problem-solving.
+        <p>A collaborative and hands-on leader who likes to influence the entire creative process beginning with team-building and brief-writing, and seeing it through to final execution and deployment. Skilled at driving teams toward uncovering the visual language that will bring the clients’ objectives to life in unexpected and effective ways.  Facing any task big or small with enthusiasm, passion, and a deep well of creative problem-solving.
         </p>
 
         <p>Brian’s work has been recognized by numerous design organizations and publications including the AIGA, The Type Directors Club, Print Magazine, Communication Arts, the Hong Kong Heritage Center, and the Center for Political Graphics (CSPG), among others.
