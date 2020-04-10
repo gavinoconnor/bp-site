@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
-class ClientsContainer extends Component {
+import clients from '../assets/clientData.js';
 
-  state = {
-    images: []
-  }
+class ClientsContainer extends Component {
 
   render() {
     return (
-
+      
     );
   }
 }

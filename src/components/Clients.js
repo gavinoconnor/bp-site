@@ -1,18 +1,24 @@
 import React from 'react';
 
-const Clients = (props) => {
+import image from '../assets/images/nikon-1.jpg';
 
+const Clients = (props) => {
+  console.log(props.clients[0])
   return (
     <div className='client-container'>
       <div className='client-col-1'>
         <h4>Clients</h4>
         <ul className='client-list' onMouseOver={props.handleHover} onMouseLeave={props.leaveHover}>
-          <li>Diana Rilov</li>{props.hovering ?
-          <div><img src={props.image}/></div> : null}
+          <li>{props.clients[0].name}
+          {props.hovering ?
+          <img src={require(`../assets/images/${props.clients[0].image}`)} alt=''/> : null}
+          </li>
+          {/* <li>Diana Rilov</li>
           <li>Berlin Rosen</li>
           <li>Anne Mühlethaler</li>
           <li>Piermont Bank</li>
-          <li>Nikon</li>
+          <li>Nikon</li>{props.hovering ?
+          <div><img src={props.image}/></div> : null}
           <li>eBay</li>
           <li>HBO</li>
           <li>Delta</li>
@@ -43,7 +49,7 @@ const Clients = (props) => {
           <li>AIGA</li>
           <li>1968xoxox</li>
           <li>(I LOVE NY)</li>
-          <li>B-Sides</li>
+          <li>B-Sides</li> */}
         </ul>
       </div>
       <div className='image-container'>

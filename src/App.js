@@ -6,14 +6,15 @@ import About from './components/About';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
 
-import nikon from './assets/images/nikon-1.jpg';
+import clientData from './assets/clientData';
 
 class App extends Component {
 
   state = {
-    image: nikon,
-    hovering: false
+    hovering: false,
+    clients: clientData
   }
+
 
   handleHover = (event) => {
     console.log(event.target)
@@ -33,7 +34,7 @@ class App extends Component {
     return (
         <div className='container'>
           <Home />
-          <Clients image={this.state.image} hovering={this.state.hovering} handleHover={this.handleHover} leaveHover={this.leaveHover}/>
+          <Clients clients={this.state.clients} hovering={this.state.hovering} handleHover={this.handleHover} leaveHover={this.leaveHover}/>
           <About />
           <Footer />
         </div>
