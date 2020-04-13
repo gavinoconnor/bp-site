@@ -17,23 +17,23 @@ const clientData = [
   },
   {
     name: 'Nikon',
-    image: 'moinian.png'
+    image: 'nikon-1.jpg'
   },
   {
     name: 'eBay',
-    image: 'moinian.png'
+    image: 'berlin-rosen.png'
   },
   {
     name: 'HBO',
-    image: 'moinian.png'
+    image: 'nikon-2.jpg'
   },
   {
     name: 'Delta',
-    image: 'moinian.png'
+    image: 'nikon-1.jpg'
   },
   {
     name: 'Start With Why',
-    image: 'moinian.png'
+    image: 'berlin-rosen.png'
   },
   {
     name: 'goop',
@@ -49,7 +49,7 @@ const clientData = [
   },
   {
     name: 'FEED',
-    image: 'nikon-2.jpg'
+    image: 'berlin-rosen.png'
   },
   {
     name: 'Two Sigma',
@@ -57,7 +57,7 @@ const clientData = [
     },
   {
     name: 'Over the Eight',
-    image: 'nikon-2.jpg'
+    image: 'moinian.png'
     },
   {
     name: 'LongLive',
@@ -65,7 +65,7 @@ const clientData = [
     },
   {
     name: 'Third Rail Coffee',
-    image: 'nikon-2.jpg'
+    image: 'moinian.png'
     },
   {
     name: 'UEG',
@@ -73,7 +73,7 @@ const clientData = [
     },
   {
     name: 'Origins School',
-    image: 'nikon-2.jpg'
+    image: 'moinian.png'
     },
   {
     name: 'BCG',
@@ -81,7 +81,7 @@ const clientData = [
     },
   {
     name: 'White House Farm',
-    image: 'nikon-2.jpg'
+    image: 'moinian.png'
     },
   {
     name: 'the Green Building',
@@ -89,15 +89,15 @@ const clientData = [
   },
   {
     name: 'CHA CHA\'s House',
-    image: 'nikon-1.jpg'
+    image: 'moinian.png'
   },
   {
     name: 'UNILEVER',
-    image: 'nikon-1.jpg'
+    image: 'moinian.png'
   },
   {
     name: 'Wise Guitar',
-    image: 'nikon-1.jpg'
+    image: 'moinian.png'
   },
 
 ]

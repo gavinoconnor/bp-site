@@ -6,13 +6,13 @@ import About from './components/About';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
 
-import clientData from './assets/clientData';
+// import clientData from './assets/clientData';
 
 class App extends Component {
 
   state = {
     hovering: false,
-    clients: clientData
+    // clients: clientData
   }
 
 
@@ -34,7 +34,11 @@ class App extends Component {
     return (
         <div className='container'>
           <Home />
-          <Clients clients={this.state.clients} hovering={this.state.hovering} handleHover={this.handleHover} leaveHover={this.leaveHover}/>
+          <Clients
+            // clients={this.state.clients}
+            hovering={this.state.hovering}
+            handleHover={this.handleHover}
+            leaveHover={this.leaveHover}/>
           <About />
           <Footer />
         </div>

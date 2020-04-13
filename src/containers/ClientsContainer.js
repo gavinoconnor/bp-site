@@ -1,14 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ClientCard from '../components/ClientCard';
 
-import clients from '../assets/clientData.js';
+import clientData from '../assets/clientData';
 
-class ClientsContainer extends Component {
-
-  render() {
-    return (
-      
-    );
-  }
+const ClientsContainer = (props) => {
+  return (
+    <div className='client-map'>
+      {
+        clientData.map(client => {
+          return <ClientCard
+            key={client.name} 
+            client={client}
+            hovering={props.hovering} />
+        })
+      }
+    </div>
+  );
 }
+
+
+
 
 export default ClientsContainer;
