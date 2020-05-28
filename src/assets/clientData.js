@@ -1,15 +1,18 @@
 const clientData = [
   {
     name: 'Diana Rilov',
-    image: 'nikon-1.jpg'
+    image: 'nikon-1.jpg',
+    hovering: false
   },
   {
     name: 'Berlin Rosen',
-    image: 'berlin-rosen.png'
+    image: 'berlin-rosen.png',
+    hovering: false
   },
   {
     name: 'Anne Mülethaler',
-    image: 'moinian.png'
+    image: 'moinian.png',
+    hovering: false
   },
   {
     name: 'Piermont Bank',

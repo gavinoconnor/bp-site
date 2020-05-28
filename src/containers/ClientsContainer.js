@@ -5,20 +5,16 @@ import clientData from '../assets/clientData';
 
 const ClientsContainer = (props) => {
   return (
-    <div className='client-map'>
+    <ul className='client-list'>
       {
         clientData.map(client => {
           return <ClientCard
-            key={client.name} 
-            client={client}
-            hovering={props.hovering} />
+            key={client.name}
+            client={client}/>
         })
       }
-    </div>
-  );
+    </ul>
+  )
 }
-
-
-
 
 export default ClientsContainer;
