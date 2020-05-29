@@ -5,10 +5,15 @@ class ClientCard extends Component {
   state = {
     hovering: false
   }
-
-  toggleHover = () => {
+  // separate functions to toggle hover
+  handleHover = () => {
     this.setState({
-      hovering: !this.state.hovering
+      hovering: true
+    })
+  }
+  leaveHover = () => {
+    this.setState({
+      hovering: false
     })
   }
 
@@ -16,8 +21,8 @@ class ClientCard extends Component {
     return (
       <div className='client-card'>
         <li
-          onMouseEnter={this.toggleHover}
-          onMouseLeave={this.toggleHover}>
+          onMouseEnter={this.handleHover}
+          onMouseLeave={this.leaveHover}>
           {this.props.client.name}
         </li>
 
