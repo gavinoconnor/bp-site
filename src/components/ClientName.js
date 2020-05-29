@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ClientCard extends Component {
+class ClientName extends Component {
 
   state = {
     hovering: false
@@ -27,7 +27,7 @@ class ClientCard extends Component {
         </li>
 
         {this.state.hovering ?
-          <div>
+          <div className='client-image'>
             <img src={require(`../assets/images/${this.props.client.image}`)} alt=''/>
           </div>
           :
@@ -39,4 +39,4 @@ class ClientCard extends Component {
   }
 };
 
-export default ClientCard;
+export default ClientName;

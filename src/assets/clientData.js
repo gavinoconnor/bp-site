@@ -98,8 +98,7 @@ const clientData = [
   {
     name: 'Wise Guitar',
     image: 'moinian.png'
-  },
-
+  }
 ]
 
 export default clientData;

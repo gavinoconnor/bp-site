@@ -3,7 +3,7 @@ import './App.css';
 
 import Home from './components/Home';
 import About from './components/About';
-import Clients from './components/Clients';
+import ClientsContainer from './containers/ClientsContainer';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
         <div className='container'>
           <Home />
-          <Clients/>
+          <ClientsContainer/>
           <About />
           <Footer />
         </div>
