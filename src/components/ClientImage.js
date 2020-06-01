@@ -1,10 +1,10 @@
 import React from 'react';
 
 const ClientImage = (props) => {
-  console.log("Image", props)
+  // console.log("Image", props)
   return (
     <div>
-      {props.image}
+      <img src={require(`../assets/images/${props.image}`)} alt=''/>
     </div>
   )
 }
