@@ -6,34 +6,21 @@ import clientData from '../assets/clientData';
 
 class ClientsContainer extends Component {
 
-  state = {
-    hovering: false
-  }
-  // separate functions to toggle hover
-  handleHover = () => {
-    this.setState({
-      hovering: true
-    })
-  }
-  leaveHover = () => {
-    this.setState({
-      hovering: false
-    })
-  }
-
   render() {
-    // console.log("Client name", clientData)
 
     const clientNames = clientData.map(client => {
       return <ClientName
         client={client}
         key={client.name}
-        handleHover={this.handleHover}
-        leaveHover={this.leaveHover}/>
+        />
     })
-    console.log("Client", clientNames)
+    console.log("Client list", clientNames)
 
     const clientImages = clientData.map(client => {
+      // const foundClient = clientNames.find(clientImage => {
+      //   clientImage.props.client.image === client.image
+      // })
+      // find target client object and render image
       return <ClientImage image={client.image} key={client.name}/>
     })
     console.log("Image", clientImages )
@@ -48,14 +35,6 @@ class ClientsContainer extends Component {
           </ul>
         </div>
 
-        {this.state.hovering ?
-          <div className='image-container'>
-            <h4>Images</h4>
-              {clientImages}
-          </div>
-          :
-          ""
-        }
       </div>
     )
   }
