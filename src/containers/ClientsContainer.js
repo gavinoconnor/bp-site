@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ClientName from '../components/ClientName';
-// import ClientImage from '../components/ClientImage';
+import ClientImage from '../components/ClientImage';
 
 import clientData from '../assets/clientData';
 
@@ -14,7 +14,6 @@ class ClientsContainer extends Component {
     const foundClient = clientData.find(client => {
       return client.id === clientObject.id
     })
-    console.log("Found", foundClient)
     this.setState({
       hoverID: foundClient.id
     })
@@ -22,26 +21,22 @@ class ClientsContainer extends Component {
 
   render() {
     console.log(this.state.hoverID)
-    // set state of hover id to client id
-    // if image id === hover id, show image
-
 
     const clientNames = clientData.map(client => {
       return <ClientName
         client={client}
         key={client.id}
-        hoverID={this.state.hoverID}
         revealImage={this.revealImage}
         />
     })
     console.log("Client list", clientNames)
 
-    // const clientImage = clientData.find(client => {
-    //   if (client.id === this.state.hoverID) {
-    //     return <ClientImage image={client.image}/>
-    //   }
-    // })
-    // console.log("Image", clientImage)
+    const clientImage = clientData.map(client => {
+      if (client.id === this.state.hoverID) {
+        return <ClientImage client={client} key={client.id} />
+      } return null
+    })
+    console.log("Image", clientImage)
 
     return (
       <div className='client-container'>
@@ -54,7 +49,7 @@ class ClientsContainer extends Component {
         </div>
         <div className='client-image-container'>
           <h4>Images</h4>
-          {/* {clientImage} */}
+          {clientImage}
         </div>
       </div>
     )

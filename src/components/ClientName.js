@@ -30,14 +30,14 @@ class ClientName extends Component {
           {this.props.client.name}
         </li>
 
-        {this.state.hovering ?
-          <div className='client-image'>
+        {/* {this.state.hovering ? */}
+          {/* <div className='client-image'> */}
             {/* <ClientImage /> */}
-            <img src={require(`../assets/images/${this.props.client.image}`)} alt=''/>
+            {/* <img src={require(`../assets/images/${this.props.client.image}`)} alt=''/>
           </div>
           :
-          ""
-        }
+          "" */}
+        {/* } */}
       </div>
     );
 

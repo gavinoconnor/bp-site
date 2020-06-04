@@ -4,7 +4,11 @@ const ClientImage = (props) => {
   console.log("Image", props)
   return (
     <div className='image-reveal'>
-      <img src={require(`../assets/images/${props.image}`)} alt=''/>
+      {props.client.image ?
+      <img src={require(`../assets/images/${props.client.image}`)} alt=''/>
+      :
+      "Loading"
+    }
     </div>
   )
 }
