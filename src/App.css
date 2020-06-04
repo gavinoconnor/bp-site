@@ -33,8 +33,8 @@
 /* Client component styling */
 .client-container {
   background: #F9F2F2;
-  /* display: grid;
-  grid-template-columns: 20% 1fr; */
+  display: grid;
+  grid-template-columns: 20% 1fr;
   padding: 60px;
 }
 
@@ -42,8 +42,6 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
-  /* display: grid;
-  grid-template-columns: 20% 1fr; */
 }
 
 .client-list {
@@ -64,7 +62,10 @@
 
 .client-image {
   margin-left: 300px;
-  transition: .5s ease;
+}
+
+.image-reveal {
+  text-replace: 0.5s;
 }
 
 .image-container {

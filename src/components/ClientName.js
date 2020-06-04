@@ -20,10 +20,11 @@ class ClientName extends Component {
   }
 
   render() {
-    console.log("Hover", this.state.hovering)
+    console.log("ClientName props", this.props.client.id)
     return (
       <div className='client-card'>
         <li
+          onClick={() => this.props.revealImage(this.props.client)}
           onMouseEnter={this.handleHover}
           onMouseLeave={this.leaveHover}>
           {this.props.client.name}

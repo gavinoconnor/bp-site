@@ -1,9 +1,9 @@
 import React from 'react';
 
 const ClientImage = (props) => {
-  // console.log("Image", props)
+  console.log("Image", props)
   return (
-    <div>
+    <div className='image-reveal'>
       <img src={require(`../assets/images/${props.image}`)} alt=''/>
     </div>
   )
