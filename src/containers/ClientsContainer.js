@@ -29,28 +29,29 @@ class ClientsContainer extends Component {
         revealImage={this.revealImage}
         />
     })
-    console.log("Client list", clientNames)
 
     const clientImage = clientData.map(client => {
       if (client.id === this.state.hoverID) {
         return <ClientImage client={client} key={client.id} />
       } return null
     })
+
     console.log("Image", clientImage)
 
     return (
       <div className='client-container'>
 
-        <div className='client-col-1'>
+        <div className='client-column'>
           <h4>Clients</h4>
-          <ul className='client-list'>
-            {clientNames}
-          </ul>
+            <ul className='client-list'>
+              {clientNames}
+            </ul>
         </div>
+
         <div className='client-image-container'>
-          <h4>Images</h4>
           {clientImage}
         </div>
+
       </div>
     )
   }

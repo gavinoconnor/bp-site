@@ -38,7 +38,7 @@
   padding: 60px;
 }
 
-.client-col-1 {
+.client-column {
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
@@ -56,22 +56,23 @@
   text-decoration: line-through;
 }
 
-.client-list li:hover .client-image {
-  margin-left: 100px;
+.client-image-container {
+  position: relative;
+  overflow: hidden;
+  transform: translateX(0%);
 }
 
 .client-image {
-  margin-left: 300px;
+  animation: slide 1.5s forwards;
 }
 
-.image-reveal {
-  text-replace: 0.5s;
+@keyframes slide {
+  0% { transform: translateX(100%); }
 }
 
-.image-container {
-
+.client-image img {
+  width: 1000px;
 }
-
 
 /* About component styling */
 .about-container {
