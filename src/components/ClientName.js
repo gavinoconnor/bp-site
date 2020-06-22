@@ -18,7 +18,6 @@ class ClientName extends Component {
   // }
 
   render() {
-    console.log("ClientName props", this.props.client.id)
     return (
       <div className='client-card'>
         <li

@@ -57,21 +57,23 @@
 }
 
 .client-image-container {
-  position: relative;
+  /* position: relative;
   overflow: hidden;
-  transform: translateX(0%);
+  transform: translateX(0%); */
 }
 
 .client-image {
-  animation: slide 1.5s forwards;
+  margin-top: 40px;
+  /* animation: slide 1.5s forwards; */
 }
 
-@keyframes slide {
+/* @keyframes slide {
   0% { transform: translateX(100%); }
-}
+} */
 
 .client-image img {
-  width: 1000px;
+  width: 85%;
+  /* max-height: 600px; */
 }
 
 /* About component styling */
