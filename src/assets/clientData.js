@@ -2,152 +2,164 @@ const clientData = [
   {
     name: 'Diana Rilov',
     folder: 'Diana-Rilov',
-    imagess: ['nikon-1.jpg', 'berlin-rosen.png']
+    imagess: []
     id: 1
   },
   {
     name: 'Berlin Rosen',
     folder: 'Berlin-Rosen',
-    images: 'berlin-rosen.png',
+    images: ['BerlinRosen_01_Logo.png', 'BerlinRosen_02_Website.png', 'BerlinRosen_03_Grid.png']
     id: 2
   },
   {
     name: 'Anne Mülethaler',
     folder: 'Anne-Mulethaler',
-    images: 'moinian.png',
+    images: [],
     id: 3
   },
   {
     name: 'Piermont Bank',
     folder: 'Piermont-Bank',
-    images: 'nikon-2.jpg',
+    images: [],
     id: 4
   },
   {
     name: 'Nikon',
     folder: 'Nikon',
-    images: 'nikon-1.jpg',
+    images: ['Nikon_01_Graphics.png', 'Nikon_02_Signage.jpg', 'Nikon_03_Refract.JPG', 'Nikon_04_Space.jpg', 'Nikon_05_Program.jpg' ],
     id: 5
   },
   {
     name: 'eBay',
     folder: 'eBay',
-    images: 'berlin-rosen.png',
+    images: ['ebay_01_storedesign.png', 'ebay_02_kitofparts.png', 'ebay_03_UI.png'],
     id: 6
   },
   {
     name: 'HBO',
     folder: 'HBO',
-    images: 'nikon-2.jpg',
+    images: [],
     id: 7
   },
   {
     name: 'Delta',
     folder: 'Delta',
-    images: 'nikon-1.jpg',
+    images: ['Delta_01_Stage.jpg', 'Delta_02_Program.jpg', 'Delta_03_People.jpg'],
     id: 8
   },
   {
     name: 'Start With Why',
     folder: 'Start-With-Why',
-    images: 'berlin-rosen.png',
+    images: ['SWW_01.png', 'SWW_02.png', 'SWW_03.png', 'SWW_04.png', 'SWW_05.png'],
     id: 9
   },
   {
     name: 'goop',
     folder: 'goop',
-    images: 'moinian.png',
+    images: ['goop_01.png', 'goop_02.jpg', 'goop_03.png', 'goop_04.jpg', 'goop_05.jpg', 'goop_06.png'],
     id: 10
   },
   {
     name: 'Motif',
     folder: 'Motif',
-    images: 'nikon-1.jpg',
+    images: [],
     id: 11
   },
   {
     name: 'New York Life',
     folder: 'New-York-Life',
-    images: 'nikon-2.jpg',
+    images: [],
     id: 12
   },
   {
     name: 'FEED',
     folder: 'FEED',
-    images: 'berlin-rosen.png',
+    images: [],
     id: 13
   },
   {
     name: 'Two Sigma',
     folder: 'Two-Sigma',
-    images: 'nikon-2.jpg',
+    images: ['TS_01.jpeg', 'TS_03.jpeg', 'TS_03.png', 'TS_04.mp4'],
     id: 14
   },
   {
     name: 'Over the Eight',
     folder: 'Over-the-Eight',
-    images: 'moinian.png',
+    images: [],
     id: 15
   },
   {
     name: 'LoveLive',
     folder: 'LoveLive',
-    images: 'nikon-2.jpg',
+    images: ['LoveLive_corporateID.png'],
     id: 16
   },
   {
     name: 'Third Rail Coffee',
     folder: 'Third-Rail-Coffee',
-    images: 'moinian.png',
+    images: [],
     id: 17
   },
   {
     name: 'UEG',
     folder: 'UEG',
-    images: 'nikon-2.jpg',
+    images: [],
     id: 18
   },
   {
     name: 'Origins School',
     folder: 'Origins-School',
-    images: 'moinian.png',
+    images: [],
     id: 19
   },
   {
     name: 'BCG',
     folder: 'BCG',
-    images: 'nikon-2.jpg',
+    images: [],
     id: 20
   },
   {
     name: 'White House Farm',
     folder: 'White-House-Farm',
-    images: 'moinian.png',
+    images: [],
     id: 21
   },
   {
     name: 'the Green Building',
     folder: 'The-Green-Building',
-    images: 'nikon-1.jpg',
+    images: [],
     id: 22
   },
   {
     name: 'CHA CHA\'s House',
     folder: 'CHA-CHAs-House',
-    images: 'moinian.png',
+    images: [],
     id: 23
   },
   {
     name: 'UNILEVER',
     folder: 'UNILEVER',
-    images: 'moinian.png',
+    images: [],
     id: 24
   },
   {
     name: 'Wise Guitar',
     folder: 'Wise-Guitar',
-    images: 'moinian.png',
+    images: [],
     id: 25
+  },
+  {
+    name: 'Moinian',
+    folder: 'Moinian',
+    images: ['Moinian_01_Logo.png', 'Moinian_02_Lobby.png'],
+    id: 26
+  },
+  {
+    name: 'TASTE',
+    folder: 'TASTE',
+    images: ['TASTE_01.jpg', 'TASTE_02.jpg', 'TASTE_03.jpg'],
+    id: 27
   }
 ]
 
