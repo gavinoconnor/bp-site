@@ -1,127 +1,152 @@
 const clientData = [
   {
     name: 'Diana Rilov',
-    image: 'nikon-1.jpg',
+    folder: 'Diana-Rilov',
+    imagess: ['nikon-1.jpg', 'berlin-rosen.png']
     id: 1
   },
   {
     name: 'Berlin Rosen',
-    image: 'berlin-rosen.png',
+    folder: 'Berlin-Rosen',
+    images: 'berlin-rosen.png',
     id: 2
   },
   {
     name: 'Anne Mülethaler',
-    image: 'moinian.png',
+    folder: 'Anne-Mulethaler',
+    images: 'moinian.png',
     id: 3
   },
   {
     name: 'Piermont Bank',
-    image: 'nikon-2.jpg',
+    folder: 'Piermont-Bank',
+    images: 'nikon-2.jpg',
     id: 4
   },
   {
     name: 'Nikon',
-    image: 'nikon-1.jpg',
+    folder: 'Nikon',
+    images: 'nikon-1.jpg',
     id: 5
   },
   {
     name: 'eBay',
-    image: 'berlin-rosen.png',
+    folder: 'eBay',
+    images: 'berlin-rosen.png',
     id: 6
   },
   {
     name: 'HBO',
-    image: 'nikon-2.jpg',
+    folder: 'HBO',
+    images: 'nikon-2.jpg',
     id: 7
   },
   {
     name: 'Delta',
-    image: 'nikon-1.jpg',
+    folder: 'Delta',
+    images: 'nikon-1.jpg',
     id: 8
   },
   {
     name: 'Start With Why',
-    image: 'berlin-rosen.png',
+    folder: 'Start-With-Why',
+    images: 'berlin-rosen.png',
     id: 9
   },
   {
     name: 'goop',
-    image: 'moinian.png',
+    folder: 'goop',
+    images: 'moinian.png',
     id: 10
   },
   {
     name: 'Motif',
-    image: 'nikon-1.jpg',
+    folder: 'Motif',
+    images: 'nikon-1.jpg',
     id: 11
   },
   {
     name: 'New York Life',
-    image: 'nikon-2.jpg',
+    folder: 'New-York-Life',
+    images: 'nikon-2.jpg',
     id: 12
   },
   {
     name: 'FEED',
-    image: 'berlin-rosen.png',
+    folder: 'FEED',
+    images: 'berlin-rosen.png',
     id: 13
   },
   {
     name: 'Two Sigma',
-    image: 'nikon-2.jpg',
+    folder: 'Two-Sigma',
+    images: 'nikon-2.jpg',
     id: 14
   },
   {
     name: 'Over the Eight',
-    image: 'moinian.png',
+    folder: 'Over-the-Eight',
+    images: 'moinian.png',
     id: 15
   },
   {
-    name: 'LongLive',
-    image: 'nikon-2.jpg',
+    name: 'LoveLive',
+    folder: 'LoveLive',
+    images: 'nikon-2.jpg',
     id: 16
   },
   {
     name: 'Third Rail Coffee',
-    image: 'moinian.png',
+    folder: 'Third-Rail-Coffee',
+    images: 'moinian.png',
     id: 17
   },
   {
     name: 'UEG',
-    image: 'nikon-2.jpg',
+    folder: 'UEG',
+    images: 'nikon-2.jpg',
     id: 18
   },
   {
     name: 'Origins School',
-    image: 'moinian.png',
+    folder: 'Origins-School',
+    images: 'moinian.png',
     id: 19
   },
   {
     name: 'BCG',
-    image: 'nikon-2.jpg',
+    folder: 'BCG',
+    images: 'nikon-2.jpg',
     id: 20
   },
   {
     name: 'White House Farm',
-    image: 'moinian.png',
+    folder: 'White-House-Farm',
+    images: 'moinian.png',
     id: 21
   },
   {
     name: 'the Green Building',
-    image: 'nikon-1.jpg',
+    folder: 'The-Green-Building',
+    images: 'nikon-1.jpg',
     id: 22
   },
   {
     name: 'CHA CHA\'s House',
-    image: 'moinian.png',
+    folder: 'CHA-CHAs-House',
+    images: 'moinian.png',
     id: 23
   },
   {
     name: 'UNILEVER',
-    image: 'moinian.png',
+    folder: 'UNILEVER',
+    images: 'moinian.png',
     id: 24
   },
   {
     name: 'Wise Guitar',
-    image: 'moinian.png',
+    folder: 'Wise-Guitar',
+    images: 'moinian.png',
     id: 25
   }
 ]
