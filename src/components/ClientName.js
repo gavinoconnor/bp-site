@@ -22,8 +22,6 @@ class ClientName extends Component {
       <div className='client-card'>
         <li
           onMouseEnter={() => this.props.revealImage(this.props.client)}
-          // onMouseEnter={this.handleHover}
-          // onMouseLeave={this.leaveHover}
           >
           {this.props.client.name}
         </li>

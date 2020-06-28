@@ -2,13 +2,13 @@ const clientData = [
   {
     name: 'Diana Rilov',
     folder: 'Diana-Rilov',
-    imagess: []
+    images: [],
     id: 1
   },
   {
     name: 'Berlin Rosen',
     folder: 'Berlin-Rosen',
-    images: ['BerlinRosen_01_Logo.png', 'BerlinRosen_02_Website.png', 'BerlinRosen_03_Grid.png']
+    images: ['BerlinRosen_01_Logo.png', 'BerlinRosen_02_Website.png', 'BerlinRosen_03_Grid.png'],
     id: 2
   },
   {
@@ -122,7 +122,7 @@ const clientData = [
   {
     name: 'White House Farm',
     folder: 'White-House-Farm',
-    images: [],
+    images: ['WHOfarm_01.jpg', 'Whofarm_02.png', 'WHOfarm_03.jpg'],
     id: 21
   },
   {
