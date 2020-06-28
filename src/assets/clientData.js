@@ -38,7 +38,7 @@ const clientData = [
   {
     name: 'HBO',
     folder: 'HBO',
-    images: [],
+    images: ['HBO_01.jpg', 'HBO_02.png', 'HBO_03.png', 'HBO_04.png', 'HBO_05.jpg', 'HBO_06.jpg', 'HBO_07.jpg'],
     id: 7
   },
   {
@@ -74,7 +74,7 @@ const clientData = [
   {
     name: 'FEED',
     folder: 'FEED',
-    images: [],
+    images: ['FEED_01.png', 'FEED_02.png', 'FEED_03.png'],
     id: 13
   },
   {
@@ -92,25 +92,25 @@ const clientData = [
   {
     name: 'LoveLive',
     folder: 'LoveLive',
-    images: ['LoveLive_corporateID.png'],
+    images: ['LoveLive_corporateID.png', 'LoveLive_web.png'],
     id: 16
   },
   {
     name: 'Third Rail Coffee',
     folder: 'Third-Rail-Coffee',
-    images: [],
+    images: ['TR_01.png'],
     id: 17
   },
   {
     name: 'UEG',
     folder: 'UEG',
-    images: [],
+    images: ['BrianPonto_Samples_2020_Page_19.png'],
     id: 18
   },
   {
     name: 'Origins School',
     folder: 'Origins-School',
-    images: [],
+    images: ['Origins_01.png', 'Origins_02.png', 'Origins_03.png'],
     id: 19
   },
   {
@@ -128,7 +128,7 @@ const clientData = [
   {
     name: 'the Green Building',
     folder: 'The-Green-Building',
-    images: [],
+    images: ['GreenBuilding_01.png', 'GreenBuilding_02.png'],
     id: 22
   },
   {
@@ -146,7 +146,7 @@ const clientData = [
   {
     name: 'Wise Guitar',
     folder: 'Wise-Guitar',
-    images: [],
+    images: ['WISE_Headstock.jpg'],
     id: 25
   },
   {
@@ -160,6 +160,12 @@ const clientData = [
     folder: 'TASTE',
     images: ['TASTE_01.jpg', 'TASTE_02.jpg', 'TASTE_03.jpg'],
     id: 27
+  },
+  {
+    name: 'Chronic Youth',
+    folder: 'Chronic-Youth',
+    images: ['CY_01.png', 'CY_02.png'],
+    id: 28
   }
 ]
 
