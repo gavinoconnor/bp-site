@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ClientName from '../components/ClientName';
-import ClientImage from '../components/ClientImage';
+import ClientImageArray from '../components/ClientImageArray';
 
 import clientData from '../assets/clientData';
 
@@ -30,13 +30,19 @@ class ClientsContainer extends Component {
         />
     })
 
-    const clientImage = clientData.map(client => {
+    const clientImageArray = clientData.map(client => {
       if (client.id === this.state.hoverID) {
-        return <ClientImage client={client} key={client.id} />
+        return <ClientImageArray client={client} key={client.id} />
       } return null
     })
+    // Old code:
+    // const clientImage = clientData.map(client => {
+    //   if (client.id === this.state.hoverID) {
+    //     return <ClientImage client={client} key={client.id} />
+    //   } return null
+    // })
 
-    console.log("Image", clientImage)
+    // console.log("Image", clientImage)
 
     return (
       <div className='client-container'>
@@ -49,7 +55,9 @@ class ClientsContainer extends Component {
         </div>
 
         <div className='client-image-container'>
-          {clientImage}
+          {clientImageArray}
+          {/* old code: */}
+          {/* {clientImage} */}
         </div>
 
       </div>
