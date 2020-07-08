@@ -6,7 +6,7 @@ class ClientName extends Component {
     return (
       <div className='client-card'>
         <li
-          onMouseEnter={() => this.props.revealImage(this.props.client)}
+          onMouseMoveCapture={() => this.props.revealImage(this.props.client)}
           >
           {this.props.client.name}
         </li>

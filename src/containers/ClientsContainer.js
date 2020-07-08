@@ -7,7 +7,8 @@ import clientData from '../assets/clientData';
 class ClientsContainer extends Component {
 
   state = {
-    hoverID: ''
+    hoverID: '',
+    clientImages: []
   }
 
   revealImage = (clientObject) => {
@@ -15,12 +16,13 @@ class ClientsContainer extends Component {
       return client.id === clientObject.id
     })
     this.setState({
-      hoverID: foundClient.id
+      hoverID: foundClient.id,
+      clientImages: foundClient.images
     })
   }
 
+
   render() {
-    console.log(this.state.hoverID)
 
     const clientNames = clientData.map(client => {
       return <ClientName
@@ -32,17 +34,12 @@ class ClientsContainer extends Component {
 
     const clientImageArray = clientData.map(client => {
       if (client.id === this.state.hoverID) {
-        return <ClientImageArray client={client} key={client.id} />
+        return <ClientImageArray
+          client={client}
+          key={client.id}
+          clientImages={this.state.clientImages}/>
       } return null
     })
-    // Old code:
-    // const clientImage = clientData.map(client => {
-    //   if (client.id === this.state.hoverID) {
-    //     return <ClientImage client={client} key={client.id} />
-    //   } return null
-    // })
-
-    // console.log("Image", clientImage)
 
     return (
       <div className='client-container'>
@@ -56,8 +53,6 @@ class ClientsContainer extends Component {
 
         <div className='client-image-container'>
           {clientImageArray}
-          {/* old code: */}
-          {/* {clientImage} */}
         </div>
 
       </div>

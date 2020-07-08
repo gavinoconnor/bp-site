@@ -3,6 +3,7 @@
   display: grid;
 }
 
+/*  */
 /* Home component styling */
 .home-container {
   background: #FFF;
@@ -30,6 +31,7 @@
   color: #000000;
 }
 
+/*  */
 /* Client component styling */
 .client-container {
   background: #F9F2F2;
@@ -57,25 +59,18 @@
 }
 
 .client-image-container {
-  /* position: relative;
-  overflow: hidden;
-  transform: translateX(0%); */
+  position: relative;
 }
 
 .client-image {
   margin-top: 40px;
-  /* animation: slide 1.5s forwards; */
 }
-
-/* @keyframes slide {
-  0% { transform: translateX(100%); }
-} */
 
 .client-image img {
   width: 85%;
-  /* max-height: 600px; */
 }
 
+/*  */
 /* About component styling */
 .about-container {
   background: #FFF;
@@ -132,4 +127,5 @@
 .footer-container a {
   text-decoration: underline;
   color: #FFFFFF;
+  margin-left: 50px;
 }
