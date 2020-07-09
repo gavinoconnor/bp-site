@@ -60,9 +60,8 @@
 }
 
 .client-image-container {
-  margin-top: 60px;
-  margin-left: 10px;
-  /* position: absolute; */
+  position: relative;
+  width: 100%;
 }
 
 /* .client-image-array {
@@ -70,13 +69,16 @@
 } */
 
 .client-image {
-  /* position: relative; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .client-image img {
-  position: relative;
-  width: 95%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   max-width: 100%;
+   max-height: 100%;
 }
 
 /*  */
