@@ -59,15 +59,23 @@
 }
 
 .client-image-container {
-  position: relative;
+  margin-top: 60px;
+  margin-left: 10px;
+  /* position: absolute; */
 }
 
+/* .client-image-array {
+
+} */
+
 .client-image {
+  /* position: relative; */
   margin-top: 40px;
 }
 
 .client-image img {
-  width: 85%;
+  position: relative;
+  width: 95%;
 }
 
 /*  */
