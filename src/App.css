@@ -28,8 +28,17 @@
 }
 
 .home-text a {
+  text-decoration: none;
   color: #000000;
+  border-bottom: 4px solid black;
 }
+
+/* @media (max-width: 768px) {
+  .home-container {
+    display: flex;
+    font-size: .2em;
+  }
+} */
 
 /*  */
 /* Client component styling */
