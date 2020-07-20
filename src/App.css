@@ -85,7 +85,7 @@
   background: #FFF;
   padding: 60px;
   display: grid;
-  grid-template-columns: 50% 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: 'about contact';
   font-family: 'SuisseIntl-Regular';
   font-size: 18px;
@@ -98,12 +98,12 @@
 }
 
 .about-col-1 {
-  grid-area: about;
-  padding-right: 50px;
+  /* grid-area: about; */
+  /* padding-right: 50px; */
 }
 
 .about-col-2 {
-  grid-area: contact;
+  /* grid-area: contact; */
   padding-left: 80px;
 }
 
