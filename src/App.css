@@ -73,10 +73,6 @@
   width: 100%;
 }
 
-/* .client-image-array {
-
-} */
-
 .client-image {
   /* margin-top: 40px; */
 }
@@ -148,4 +144,38 @@
   text-decoration: underline;
   color: #FFFFFF;
   margin-left: 50px;
+}
+
+/* Mobile Display */
+@media only screen and (max-width: 479px) {
+  .home-container {
+    padding: 20px;
+  }
+  .home-text {
+    height: 100vh;
+    font-size: 40px;
+    line-height: 38px;
+  }
+  .home-text a {
+    border-bottom: 1px solid black;
+  }
+
+  .client-container {
+    display: flex;
+    padding: 20px;
+  }
+  .client-image img {
+     position: absolute;
+     /* top: 25%;
+     left: 50%; */
+     transform: translateX(-25%) translateY(-25%);
+     max-width: 100%;
+     max-height: 100%;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
