@@ -21,6 +21,12 @@ class ClientsContainer extends Component {
     })
   }
 
+  hideImage = () => {
+    console.log('clicked')
+    this.setState({
+      hoverID: null
+    })
+  }
 
   render() {
 
@@ -51,7 +57,7 @@ class ClientsContainer extends Component {
             </ul>
         </div>
 
-        <div className='client-image-container'>
+        <div className='client-image-container' onClick={this.hideImage}>
           {clientImageArray}
         </div>
 
