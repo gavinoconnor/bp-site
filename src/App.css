@@ -28,7 +28,9 @@
 }
 
 .home-text a {
+  text-decoration: none;
   color: #000000;
+  border-bottom: 4px solid black;
 }
 
 /*  */
@@ -41,6 +43,7 @@
 }
 
 .client-column {
+  font-family: 'SuisseIntl-Regular';
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
@@ -60,14 +63,20 @@
 
 .client-image-container {
   position: relative;
+  width: 100%;
 }
 
 .client-image {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .client-image img {
-  width: 85%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   max-width: 100%;
+   max-height: 80%;
 }
 
 /*  */
@@ -77,6 +86,7 @@
   padding: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'about contact';
   font-family: 'SuisseIntl-Regular';
   font-size: 18px;
   letter-spacing: 0;
@@ -88,11 +98,12 @@
 }
 
 .about-col-1 {
-  /* height: 853px;
-  width: 295px; */
+  /* grid-area: about; */
+  /* padding-right: 50px; */
 }
 
 .about-col-2 {
+  /* grid-area: contact; */
   padding-left: 80px;
 }
 
@@ -128,4 +139,68 @@
   text-decoration: underline;
   color: #FFFFFF;
   margin-left: 50px;
+}
+
+/* Mobile Display */
+@media only screen and (max-width: 479px) {
+  .home-container {
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .home-text {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .home-text a {
+    border-bottom: 1px solid black;
+  }
+
+  .client-container {
+    grid-template-columns: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .client-column {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .client-image img {
+     position: fixed;
+     top: 50%;
+     left: 60%;
+     transform: translateX(-50%) translateY(-50%);
+  }
+
+  .about-container {
+    padding: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    'contact'
+    'about';
+    grid-template-columns: 1fr;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about-col-1 {
+    word-wrap: break-word;
+  }
+  .about-col-2 {
+    padding: 0px;
+  }
+  .connect-list li {
+    padding-bottom: 30px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .footer-container a {
+    margin: 5px;
+  }
 }
