@@ -42,18 +42,29 @@
   padding: 60px;
 }
 
-.client-column {
+.non-client-column {
+  display: grid;
+  grid-row-start: 2;
+}
+.non-client-column > h4 {
+  margin-bottom: 0;
+}
+
+.client-column, .non-client-column {
   font-family: 'SuisseIntl-Regular';
   font-size: 18px;
   letter-spacing: 0;
   line-height: 24px;
 }
 
-.client-list {
+.client-list, .non-client-column {
   padding-left: 0;
 }
 
 .client-list li {
+  list-style: none;
+}
+.non-client-list li {
   list-style: none;
 }
 

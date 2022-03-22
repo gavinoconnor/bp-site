@@ -8,7 +8,8 @@ class ClientsContainer extends Component {
 
   state = {
     hoverID: '',
-    clientImages: []
+    clientImages: [],
+    imageIndex: 0
   }
 
   revealImage = (clientObject) => {
@@ -31,11 +32,23 @@ class ClientsContainer extends Component {
   render() {
 
     const clientNames = clientData.map(client => {
-      return <ClientName
+      if (client.id < 25) {
+        return <ClientName
         client={client}
         key={client.id}
         revealImage={this.revealImage}
         />
+      }
+    })
+
+    const nonClientNames = clientData.map(client => {
+      if (client.id > 25) {
+        return <ClientName
+        client={client}
+        key={client.id}
+        revealImage={this.revealImage}
+        />
+      }
     })
 
     const clientImageArray = clientData.map(client => {
@@ -54,6 +67,12 @@ class ClientsContainer extends Component {
           <h4>Clients</h4>
             <ul className='client-list'>
               {clientNames}
+            </ul>
+        </div>
+        <div className='client-column non-client-column'>
+          <h4>Non-Clients</h4>
+            <ul className='client-list'>
+              {nonClientNames}
             </ul>
         </div>
 

@@ -15,7 +15,7 @@ const About = () => {
         <p>Brian received his Bachelor’s of Fine Art in Graphic Design from the <a href='https://sva.edu' target='_blank' rel='noopener noreferrer'>School of Visual Arts</a>, studying under <a href='http://paulsahre.com/' target='_blank' rel='noopener noreferrer'>Paul Sahre</a>. Upon graduating he worked for mentor and designer <a href='https://www.jamesvictore.com/' target='_blank' rel='noopener noreferrer'>James Victore</a>, and other boutique studios including <a href='http://www.pushpininc.com/' target='_blank' rel='noopener noreferrer'>the Pushpin Group</a> and the Valentine Group.
         </p>
 
-        <p>He currently lives with his wife Ferris, son Wesley, and lil’ <a href='https://www.longroadhomerescue.com/' target='_blank' rel='noopener noreferrer'>rescue-pup</a> Lil, in Brooklyn. He is an art contributor to <a href='https://indypendent.org/' target='_blank' rel='noopener noreferrer'>the Indypendent</a>, a center fielder for the Brooklyn Rat Cannons baseball club, and a musician in several projects.
+        <p>He lives with his wife Ferris, son Wesley, and lil’ <a href='https://www.longroadhomerescue.com/' target='_blank' rel='noopener noreferrer'>rescue-pup</a> Lil, in Brooklyn. He is an art contributor for <a href='https://indypendent.org/' target='_blank' rel='noopener noreferrer'>the Indypendent</a>, and a baseball contributor for the <a href='https://www.instagram.com/explore/tags/ratcannons/' target='_blank' rel='noopener noreferrer'>Brooklyn Rat Cannons</a>.
         </p>
       </div>
 
