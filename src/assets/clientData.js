@@ -2,7 +2,7 @@ const clientData = [
   {
     name: 'Diana Rilov',
     folder: 'Diana-Rilov',
-    images: ['DIANA_01.png'],
+    images: ['DR_01.png', 'DR_02.png', 'DR_03.png', 'DR_04.png'],
     id: 1
   },
   {

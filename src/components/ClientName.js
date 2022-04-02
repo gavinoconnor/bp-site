@@ -1,19 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ClientName extends Component {
+export default function ClientName(props) {
+  return (
+    <div className='client-card'>
+      <li>{props.client.name}</li>
+    </div>
+  )
+}
 
-  render() {
-    return (
-      <div className='client-card'>
-        <li
-          onMouseMoveCapture={() => this.props.revealImage(this.props.client)}
-          >
-          {this.props.client.name}
-        </li>
-      </div>
-    );
-
-  }
-};
-
-export default ClientName;
