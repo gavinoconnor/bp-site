@@ -1,32 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ClientImage from './ClientImage';
 
-const ClientImageArray = (props) => {
-  // console.log("Image Array", props.clientImages)
+class ClientImageArray extends Component {
+  state = {
+    imageIndex: 0
+  }
 
-  const clientImages = props.client.images.map(image => {
+   clientImages = this.props.client.images.map(image => {
     return <ClientImage
-      client={props.client}
+      client={this.props.client}
       image={image}
       key={image}/>
   })
 
-  return (
-    <div className='client-image-array'>
-      {props.client.images.length >= 1 ? clientImages[0] : "Loading"}
-    </div>
-  )
+  imgTimer = () => setInterval(() => {
+    if (this.imageIndex < this.clientImages.length) 
+    this.setState({
+      imageIndex: 1
+    }) 
+    // else { clearInterval(imgTimer) 
+    //   console.log("Clearing timer") }
+    console.log("Current index: ", this.state.imageIndex, "Length:",  this.clientImages.length)
+  }, 1000)
+
+  componentDidMount() {
+    this.imgTimer();
+  }
+  
+  render() {
+    return (
+      <div>
+
+  <div className='client-image-array'>
+    {this.props.client.images.length >= 1 ? this.clientImages[this.state.imageIndex] : "Loading"}
+  </div>
+      </div>
+
+    )
+  }
 
 
-  // return (
-  //   <div className='client-image-array'>
-  //       {props.client.images.map((image, index) => (
-  //         <div className='client-image'>
-
-  //         </div>
-  //       ))}
-  //   </div>
-  // )
 }
 
 export default ClientImageArray;
