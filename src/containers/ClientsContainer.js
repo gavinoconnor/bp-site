@@ -38,18 +38,18 @@ class ClientsContainer extends Component {
         key={client.id}
         revealImage={this.revealImage}
         />
-      }
+      } return null
     })
 
-    // const nonClientNames = clientData.map(client => {
-    //   if (client.id > 25) {
-    //     return <ClientName
-    //     client={client}
-    //     key={client.id}
-    //     revealImage={this.revealImage}
-    //     />
-    //   }
-    // })
+    const nonClientNames = clientData.map(client => {
+      if (client.id > 25) {
+        return <ClientName
+        client={client}
+        key={client.id}
+        revealImage={this.revealImage}
+        />
+      } return null
+    })
 
     const clientImageArray = clientData.map(client => {
       if (client.id === this.state.hoverID) {
@@ -72,7 +72,7 @@ class ClientsContainer extends Component {
         <div className='client-column non-client-column'>
           <h4>Non-Clients</h4>
             <ul className='client-list'>
-              {/* {nonClientNames} */}
+              {nonClientNames}
             </ul>
         </div>
 
