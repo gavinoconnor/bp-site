@@ -77,9 +77,9 @@
   width: 100%;
 }
 
-.client-image {
-  /* margin-top: 40px; */
-}
+/* .client-image {
+  transition: all 0.9s ease;
+} */
 
 .client-image img {
    position: absolute;
@@ -88,6 +88,7 @@
    transform: translateX(-50%) translateY(-50%);
    max-width: 100%;
    max-height: 80%;
+   /* transition: all 0.9s ease; */
 }
 
 /*  */
@@ -108,10 +109,10 @@
   color: #000000;
 }
 
-.about-col-1 {
-  /* grid-area: about; */
-  /* padding-right: 50px; */
-}
+/* .about-col-1 {
+  grid-area: about;
+  padding-right: 50px;
+} */
 
 .about-col-2 {
   /* grid-area: contact; */

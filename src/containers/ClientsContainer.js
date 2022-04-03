@@ -23,7 +23,7 @@ class ClientsContainer extends Component {
   }
 
   hideImage = () => {
-    console.log('clicked')
+    // console.log('clicked')
     this.setState({
       hoverID: null
     })
@@ -32,7 +32,7 @@ class ClientsContainer extends Component {
   render() {
 
     const clientNames = clientData.map(client => {
-      if (client.id < 25) {
+      if (client.id <= 25) {
         return <ClientName
         client={client}
         key={client.id}

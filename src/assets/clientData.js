@@ -2,7 +2,7 @@ const clientData = [
   {
     name: 'Diana Rilov',
     folder: 'Diana-Rilov',
-    images: ['DIANA_01.png'],
+    images: ['DR_01.png', 'DR_02.png', 'DR_03.png', 'DR_04.png'],
     id: 1
   },
   {
@@ -14,25 +14,25 @@ const clientData = [
   {
     name: 'Berlin Rosen',
     folder: 'Berlin-Rosen',
-    images: ['BerlinRosen_01.png', 'BerlinRosen_01_Logo.png', 'BerlinRosen_02_Website.png', 'BerlinRosen_03_Grid.png'],
+    images: ['BR_01.png', 'BR_02.png', 'BR_03.png'],
     id: 3
   },
   {
     name: 'Anne Mülethaler',
     folder: 'Anne-Mulethaler',
-    images: ['AVM_01.png'],
+    images: ['AVM_01.png', 'AVM_02.png'],
     id: 4
   },
   {
     name: 'Piermont Bank',
     folder: 'PiermontBank',
-    images: ['Piermont_01.png'],
+    images: ['PB_01.png', 'PB_02.png', 'PB_03.png', 'PB_04.png', 'PB_05.png'],
     id: 5
   },
   {
     name: 'Nikon',
     folder: 'Nikon',
-    images: ['Nikon_02_Signage.jpg', 'Nikon_01_Graphics.png', 'Nikon_03_Refract.JPG', 'Nikon_04_Space.jpg', 'Nikon_05_Program.jpg' ],
+    images: ['NK_01.png', 'NK_02.png', 'NK_03.png', 'NK_04.png', 'NK_05.png', 'NK_06.png', 'NK_07.png' ],
     id: 6
   },
     {
@@ -44,55 +44,55 @@ const clientData = [
   {
     name: 'HBO',
     folder: 'HBO',
-    images: ['HBO_01.jpg', 'HBO_02.png', 'HBO_03.png', 'HBO_04.png', 'HBO_05.jpg', 'HBO_06.jpg', 'HBO_07.jpg'],
+    images: ['HBO_01.png', 'HBO_02.png', 'HBO_03.png', 'HBO_04.png', 'HBO_05.png', 'HBO_06.png', 'HBO_07.png'],
     id: 8
   },
   {
     name: 'Delta',
     folder: 'Delta',
-    images: ['Delta_01_Stage.jpg', 'Delta_02_Program.jpg', 'Delta_03_People.jpg'],
+    images: ['DL_01.png', 'DL_02.png', 'DL_03.png'],
     id: 9
   },
   {
     name: 'eBay',
     folder: 'eBay',
-    images: ['eBay_01.png', 'ebay_01_storedesign.png', 'ebay_02_kitofparts.png', 'ebay_03_UI.png'],
+    images: ['EB_01.png', 'EB_02.png', 'EB_03.png'],
     id: 10
   },
   {
     name: 'goop',
     folder: 'goop',
-    images: ['goop_01.png', 'goop_02.jpg', 'goop_03.png', 'goop_04.jpg', 'goop_05.jpg', 'goop_06.png'],
+    images: ['GO_01.png', 'GO_02.png', 'GO_03.png', 'GO_04.png', 'GO_05.png'],
     id: 11
   },
   {
     name: 'Motif',
     folder: 'Motif',
-    images: ['Motif_01.png'],
+    images: ['MO_01.png', 'MO_02.png', 'MO_03.png', 'MO_04.png'],
     id: 12
   },
   {
     name: 'FEED',
     folder: 'FEED',
-    images: ['FEED.png', 'FEED_01.png', 'FEED_02.png', 'FEED_03.png'],
+    images: ['FD_01.png', 'FD_02.png', 'FD_03.png'],
     id: 13
   },
   {
     name: 'Two Sigma',
     folder: 'Two-Sigma',
-    images: ['TS_01.png', 'TS_01.jpeg', 'TS_03.jpeg', 'TS_03.png', 'TS_04.mp4'],
+    images: ['TS_01.png', 'TS_02.png', 'TS_03.png'],
     id: 14
   },
   {
     name: 'Over the Eight',
     folder: 'Over-the-Eight',
-    images: ['OTE_02_Menu.jpg'],
+    images: ['OTE_01.png', 'OTE_02.png', 'OTE_03.png', 'OTE_04.png'],
     id: 15
   },
   {
     name: 'New Balance',
     folder: 'NewBalance',
-    images: ['NB_01.png'],
+    images: ['NB_01.png', 'NB_02.png', 'NB_03.png', 'NB_04.png', 'NB_05.png', 'NB_06.png'],
     id: 16
   },
   {
@@ -104,43 +104,43 @@ const clientData = [
   {
     name: 'TASTE',
     folder: 'TASTE',
-    images: ['TASTE_01.jpg', 'TASTE_02.jpg', 'TASTE_03.jpg'],
+    images: ['TA_01.png', 'TA_02.png', 'TA_03.png'],
     id: 18
   },
   {
     name: 'Origins School',
     folder: 'Origins-School',
-    images: ['Origins_single.png', 'Origins_01.png', 'Origins_02.png', 'Origins_03.png'],
+    images: ['OR_01.png', 'OR_02.png', 'OR_03.png'],
     id: 19
   },
   {
     name: 'Third Rail Coffee',
     folder: 'Third-Rail-Coffee',
-    images: ['TR_01.png'],
+    images: ['TR_01.png', 'TR_02.png', 'TR_03.png'],
     id: 20
   },
   {
     name: 'The Green Building',
     folder: 'The-Green-Building',
-    images: ['GreenBuilding_01.png', 'GreenBuilding_02.png'],
+    images: ['GB_01.png', 'GB_02.png'],
     id: 21
   },
   {
     name: 'Moinian',
     folder: 'Moinian',
-    images: ['Moinian_02_Lobby.png','Moinian_01_Logo.png'],
+    images: ['MO_01.png'],
     id: 22
   },
   {
     name: 'White House Farm',
     folder: 'White-House-Farm',
-    images: ['Whofarm_02.png', 'WHOfarm_01.jpg', 'WHOfarm_03.jpg'],
+    images: ['WHO_01.png', 'WHO_02.png', 'WHO_03.png', 'WHO_04.png'],
     id: 23
   },
   {
     name: 'Wise Guitars',
     folder: 'Wise-Guitars',
-    images: ['WISE_Headstock.jpg'],
+    images: ['WG_01.png', 'WG_02.png'],
     id: 24
   },
   {
@@ -152,19 +152,19 @@ const clientData = [
   {
     name: 'Freedom of the Press',
     folder: 'Freedom-of-the-Press',
-    images: ['FOP_01.jpg'],
+    images: ['FOP_01.png', 'FOP_02.png', 'FOP_03.png', 'FOP_04.png', 'FOP_05.png', 'FOP_06.png', 'FOP_07.png', 'FOP_08.png', 'FOP_09.png', 'FOP_10.png', 'FOP_11.png', 'FOP_12.png', 'FOP_13.png', 'FOP_14.png',],
     id: 26
   },
   {
     name: 'Landfill zine',
     folder: 'Landfill',
-    images: ['LANDFILL_01.png'],
+    images: ['LF_01.png', 'LF_02.png', 'LF_03.png', 'LF_04.png', 'LF_05.png', 'LF_06.png', 'LF_07.png', 'LF_08.png', 'LF_09.png', 'LF_10.png', 'LF_11.png', 'LF_12.png', 'LF_13.png'],
     id: 27
   },
   {
     name: 'A Return To Mother\'s Love',
     folder: 'RTML',
-    images: ['RTML_01.png'],
+    images: ['RTML_01.png', 'RTML_02.png', 'RTML_03.png', 'RTML_04.png', 'RTML_05.png', 'RTML_06.png', 'RTML_07.png', 'RTML_08.png', 'RTML_09.png', 'RTML_10.png', 'RTML_11.png', 'RTML_12.png', 'RTML_14.png', 'RTML_15.png', 'RTML_16.png', 'RTML_18.png', 'RTML_19.png', 'RTML_20.png', 'RTML_21.png', 'RTML_22.png'],
     id: 28
   },
   // {
@@ -176,13 +176,13 @@ const clientData = [
   {
     name: 'Indypendent',
     folder: 'Indypendent',
-    images: ['INDY_01.png'],
+    images: ['INDY_01.png', 'INDY_02.png', 'INDY_03.png'],
     id: 30
   },
   {
     name: '1968xoxoxoxo',
     folder: '1968',
-    images: ['68_01.jpg'],
+    images: ['68_01.jpg', '68_02.png', '68_03.png', '68_04.png', '68_05.png', '68_06.png', '68_07.png', '68_08.png', '68_09.png', '68_10.png'],
     id: 31
   },
   {
